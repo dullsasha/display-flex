@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color:gainsboro;
+}
+
+img{
+    max-width: 150px;
+}
+
+.text1 a{
+    text-decoration: none;
+    color: black;
+    
+}
+.text1{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-right: 10px;
+}
