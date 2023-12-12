@@ -2,12 +2,18 @@ header{
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-    background-color:gainsboro;
+    background-color:whitesmoke;
 }
 
 img{
     max-width: 150px;
 }
+
+main{
+
+    height: 725px;
+}
+
 
 .text1 a{
     text-decoration: none;
@@ -20,3 +26,36 @@ img{
     gap: 6px;
     margin-right: 10px;
 }
+
+.ikony img{
+    max-width: 50px;
+}
+
+.ikony{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 10px;
+}
+footer{
+    background-color: grey;
+    height: 175px;
+}
+
+.odkazy a{
+    text-decoration: none;
+    color: black;
+}
+
+.odkazy {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+
